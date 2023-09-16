@@ -15,9 +15,9 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-## Data Extraction
-#with ZipFile('cityscapes.zip') as dataset:
-#    dataset.extractall('data')
+# Data Extraction
+with ZipFile('cityscapes.zip') as dataset:
+    dataset.extractall('data')
 
 
 # Hyperparameters & Constants
